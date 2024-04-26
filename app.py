@@ -3,6 +3,7 @@ from flask_jwt_extended import JWTManager
 from dotenv import load_dotenv
 import os
 from db import db
+import psycopg2
 from resources.users import blp as UserBlueprint
 from flask_smorest import Api
 
