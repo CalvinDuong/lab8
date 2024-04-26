@@ -8,3 +8,4 @@ passlib
 requests
 rq 
 redis 
+gunicorn
